@@ -6,6 +6,6 @@ jobs:
     runs-on: unbuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: ./actio-a
+    - uses: ./action-a
       env:
         MY_NAME: "Mona"
